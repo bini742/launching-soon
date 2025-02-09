@@ -64,13 +64,15 @@ body {
     top: 26%;
     left: 62%;
     width: 150px;
-    height: 45px;
+    height: 40px;
     border: none;
     border-radius: 25px;
     background-color: hsl(223, 87%, 63%);
     color: white;
     cursor: pointer;
     font-weight: 700;
+    margin-left:3px;
+
 }
 
 .illustration-dashboard {
@@ -128,6 +130,7 @@ footer {
         transform: translateX(-50%);
         width: 80%;
         max-width: 150px;
+        m
     }
 
     .error-message {
@@ -155,3 +158,4 @@ footer {
         top: calc(30% + 50px);
     }
 }
+
