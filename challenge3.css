@@ -62,9 +62,9 @@ body {
 #btn {
     position: absolute;
     top: 26%;
-    left: 60%;
+    left: 63%;
     width: 150px;
-    height: 40px;
+    height: 42px;
     border: none;
     border-radius: 25px;
     background-color: hsl(223, 87%, 63%);
