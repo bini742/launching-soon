@@ -62,7 +62,7 @@ body {
 #btn {
     position: absolute;
     top: 26%;
-    left: 63%;
+    left: 60%;
     width: 150px;
     height: 42px;
     border: none;
@@ -117,20 +117,7 @@ footer {
         font-size: 15px;
     }
 
-    #email {
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-        max-width: 400px;
-    }
 
-    #btn {
-        top: 32%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
-        max-width: 150px;
-        m
     }
 
     .error-message {
