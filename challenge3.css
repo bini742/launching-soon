@@ -158,4 +158,38 @@ footer {
         top: calc(30% + 50px);
     }
 }
+.subscribe-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds spacing between input and button */
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+    margin: auto; /* Centers the container */
+}
+
+.email-input {
+    flex: 1; /* Makes the input field take up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.notify-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF; /* Change color as needed */
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.notify-btn:hover {
+    background-color: #0056b3;
+}
+
 
