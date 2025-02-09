@@ -1,0 +1,165 @@
+/* Original Styles */
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.ping {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#root {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+
+#soon {
+    position: absolute;
+    top: 50%;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    font-weight:700;
+    color: black;
+    font-size: 50px;
+    white-space: nowrap;}
+
+#sub {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+#email {
+    position: absolute;
+    top: 26%;
+    left: 31%;
+    width: 400px;
+    height: 40px;
+    border: 2px solid hsl(0, 0%, 59%);
+    border-radius: 25px;
+    padding: 0 20px;
+    outline: none;
+}
+
+#btn {
+    position: absolute;
+    top: 26%;
+    left: 64%;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left:3px;
+}
+
+.illustration-dashboard {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    margin-top: 65px;
+}
+
+.error-message {
+    position: absolute;
+    top: calc(26% + 50px);
+    left: 31%;
+    color: #ff5757;
+    font-size: 14px;
+    font-style: italic;
+    width: 400px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #root {
+        font-size: 40px;
+        white-space: normal;
+        text-align: center;
+    }
+
+    #sub {
+        top: 28%;
+        font-size: 15px;
+    }
+
+    #email {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        max-width: 400px;
+    }
+
+    #btn {
+        top: 32%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        max-width: 150px;
+    }
+
+    .error-message {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #root {
+        font-size: 30px;
+    }
+
+    #sub {
+        font-size: 14px;
+    }
+
+    #email, #btn {
+        top: 30%;
+    }
+
+    .error-message {
+        top: calc(30% + 50px);
+    }
+}
+.subscribe-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 15px !important;
+    align-items: center !important;
+}
